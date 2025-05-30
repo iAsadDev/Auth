@@ -1,0 +1,26 @@
+# Ignore OS/system files
+.DS_Store           # macOS
+Thumbs.db           # Windows
+*.swp               # Vim swap files
+
+# Ignore IDE/project files
+.idea/              # JetBrains (PyCharm, IntelliJ)
+.vscode/            # VS Code settings
+*.suo               # Visual Studio
+
+# Ignore compiled files
+*.pyc               # Python bytecode
+__pycache__/        # Python cache
+*.class             # Java classes
+*.exe               # Windows executables
+
+# Ignore dependencies
+node_modules/       # Node.js
+venv/               # Python virtualenv
+.env                # Environment variables
+
+# Ignore logs/builds
+logs/
+*.log
+build/
+dist/
